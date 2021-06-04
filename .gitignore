@@ -1,0 +1,19 @@
+# .pyc files
+*.pyc
+# Aismun files
+*.ang
+*.sang
+*.old
+*.apa
+*.sqlite
+*.log
+# zipped files
+*.zip
+*.tar
+*.rar
+# documentation
+docs/source
+
+*.png
+*.csv
+*.temp
