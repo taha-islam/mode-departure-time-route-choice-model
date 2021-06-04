@@ -1,0 +1,23 @@
+# This file lists all toll values
+# To import these tolls to an experiment run the script "Import Toll Variables" from the experiment context menu
+# tolls are in cents per km
+# variable naming: <HWY>_<Z>_<D>_<Sta>_<End>
+#	HWY	:	highway number, e.g. 401, 407, gde (Gardiner Expressway), dvp
+#	Z	:	zone number
+#	D	:	direction (n, e, s, and w)
+#	Sta	:	start time (format hhmmm)
+#	End	:	end time (format hhmmm)
+# if Sta = End = 000 --> this is the default toll value
+
+# HWY407 - Zone 1 - EB - Weekday
+407_1_e_600_700 = 1.0
+407_1_e_700_900 = 2.0
+407_1_e_900_1000 = 3.0
+407_1_e_1000_1430 = 4.0
+407_1_e_000_000 = 0.0
+# HWY407 - Zone 2 - EB - Weekday
+407_2_e_600_700 = 1.0
+407_2_e_700_900 = 2.0
+407_2_e_900_1000 = 3.0
+407_2_e_1000_1430 = 4.0
+407_2_e_000_000 = 0.0
