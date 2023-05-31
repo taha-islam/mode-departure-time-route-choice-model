@@ -9,6 +9,8 @@ Created on Tue Jun  2 15:08:04 2020
 TO RUN:
 py -m unittest -v test.calibration.aimsun.test_sim_data
 py -m unittest -v test.calibration.aimsun.test_sim_data.TestTolls.<testmethod>
+
+"C:/Program Files/Aimsun/Aimsun Next 20/aconsole.exe" --script .\test\calibration\aimsun\test_base.py <test_num>
 '''
 
 from PyANGBasic import *
