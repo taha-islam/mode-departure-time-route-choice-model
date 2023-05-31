@@ -29,7 +29,6 @@ import sqlite3
 import pandas as pd
 
 
-
 class CalibrationDataModel(aimsunModel):
     ''' 
     A class for a microscopic Aimsun model to generate data required for 

@@ -5,11 +5,11 @@ Created on Thu Nov 28 15:07:14 2019
 @author: islam
 """
 
-import sys
-SITEPACKAGES = 'C:\\Python27\\Lib\\site-packages'
-if SITEPACKAGES not in sys.path:
-	sys.path.append(SITEPACKAGES)
-
+#import sys
+#SITEPACKAGES = 'C:\\Python27\\Lib\\site-packages'
+#if SITEPACKAGES not in sys.path:
+#	sys.path.append(SITEPACKAGES)
+import metro3.metro.tools.site_packages
 import os
 import time
 import sqlite3
