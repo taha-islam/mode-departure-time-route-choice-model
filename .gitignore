@@ -12,7 +12,9 @@
 *.tar
 *.rar
 # documentation
-docs/source
+docs/_build
+# spyder
+./.spyproject
 
 *.png
 *.csv
